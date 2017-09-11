@@ -4,11 +4,12 @@ EtherChannel using Netmiko
 
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/1.PNG)
 
-First, let's create three files, once for data, the second to configure our topology, and the third is for showing results:
+First, let's create three files, one for data, the second to configure our topology, and the third is for showing results:
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/2.PNG)
 
-Then, we start by data.py, and we put all the SSH information Netmiko it needs to access each switch:
+Then, we start by data.py, and we put all the SSH information Netmiko needs to access each switch:
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/3.PNG)
+
 Now we go to the configure.py file.
 This first config function, will configure a trunk interface:
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/4.PNG)
@@ -28,7 +29,8 @@ Now, let's run these two configuration functions:
 
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/9.PNG)
 
-Now, let's go to the show.py, and write down the functions that will check the etherchannel state of all the switches:
+Now, let's go to the show.py, and write down the functions that will check the etherchannel 
+state of all the switches:
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/10.PNG)
 
 We run these functions:
