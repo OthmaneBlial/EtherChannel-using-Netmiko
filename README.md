@@ -33,7 +33,9 @@ Now, let's go to the show.py, and write down the functions that will check the e
 state of all the switches:
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/10.PNG)
 
+
 We run these functions:
+
 ![alt tag](https://github.com/OthmaneBlial/EtherChannel-using-Netmiko/blob/master/Tutorial/11.PNG)
 
 Here we go, the final results:
